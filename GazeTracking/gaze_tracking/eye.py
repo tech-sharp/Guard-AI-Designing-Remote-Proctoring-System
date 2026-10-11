@@ -116,4 +116,4 @@ class Eye(object):
             calibration.evaluate(self.frame, side)
 
         threshold = calibration.threshold(side)
-        self.pupil = Pupil(self.frame, threshold)
+        self.pupil = Pupil(self.frame, threshold)
